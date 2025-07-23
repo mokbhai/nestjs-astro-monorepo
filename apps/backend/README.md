@@ -70,6 +70,20 @@ $ mau deploy
 
 With Mau, you can deploy your application in just a few clicks, allowing you to focus on building features rather than managing infrastructure.
 
+## Docker
+
+You can build and run the backend service using Docker:
+
+```bash
+# Build the Docker image
+$ docker build -t backend-service .
+
+# Run the Docker container
+$ docker run -p 3000:3000 backend-service
+```
+
+The API will be available at http://localhost:3000
+
 ## Resources
 
 Check out a few resources that may come in handy when working with NestJS:
