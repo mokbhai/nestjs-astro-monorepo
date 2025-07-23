@@ -1,8 +1,9 @@
 {
-  "name": "utils",
+  "name": "@fullstack/shared-types",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Shared TypeScript types and DTOs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
@@ -10,8 +11,11 @@
     "lint": "eslint src --ext .ts",
     "lint:fix": "eslint src --ext .ts --fix"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@10.8.0"
+  "dependencies": {
+    "class-validator": "^0.14.0",
+    "class-transformer": "^0.5.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.0"
+  }
 }
