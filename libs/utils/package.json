@@ -1,5 +1,5 @@
 {
-  "name": "@fullstack/shared-types",
+  "name": "utils",
   "version": "1.0.0",
   "description": "Shared TypeScript types and DTOs",
   "main": "dist/index.js",
